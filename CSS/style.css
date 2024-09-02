@@ -1,0 +1,273 @@
+/*   Common CSS start  */
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* Common CSS end  */
+
+
+
+
+/* --------Navbar code start------- */
+
+nav{
+    background-color: #FFFFFF;
+    padding: 15px 0px !important;
+
+}
+.navbar-nav{
+    column-gap: 50px;
+   
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.nav-link:hover {
+    color: #E5745D;
+}
+.myBtn {
+    background: #E5745D;
+    padding: 20px 43px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    position: relative;
+}
+.myBtn::after {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    height: 59px;
+    width: 184px;
+    border: 1px solid rgb(219, 211, 211);
+    content: "";
+}
+
+/* ------Navbar code end ------ */
+
+
+
+
+/* ------Banner part code Start ------ */
+
+.banner_part{
+    background: #00413D;
+    padding: 220px 0px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.overly{
+    width: 41%;
+    height: 100%;
+    position: absolute;
+    background-image:url('../images/banner_.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    right: -41%;
+    transition: 0.5s;
+
+}
+.banner_part:hover .overly{
+    right: 0;
+}
+.banner_part h1 {
+    font-size: 95px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    color: #ffff;
+}
+.banner_part h1 span{
+    display: block;
+}
+.banner_part p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: rgba(255, 255, 255,0.50);
+    width: 670px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+.banner_part p span{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: rgba(255, 255, 255, 0.966);
+}
+.mybtn-1{
+    position: relative;
+    background: #E5745D;
+    padding: 16px 40px;
+}
+.mybtn-1::after {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    height: 50px;
+    width: 158px;
+    border: 1px solid rgb(219, 211, 211);
+    content: "";
+}
+
+/* ------Banner part code end ------ */
+
+
+
+/* --------Service area code start--------- */
+.service-area{
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+.service-area h4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    color: #E5745D;
+    text-align: center;
+    position: relative;
+}
+.service-area h4::after {
+    position: absolute;
+    top: 8px;
+    left: 541px;
+    height: 0px;
+    width: 40px;
+    border: 1px solid #E5745D;
+    content: "";
+}
+.service-area h4::before {
+    position: absolute;
+    top: 5px;
+    left: 576px;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #E5745D;
+    border-radius: 50%;
+    content: "";
+    background: #E5745D;
+}
+.service-area h1{
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+    font-weight: 500;
+    text-align: center;
+    width: 517px;
+    height: 120px;
+    line-height: 60px;
+    margin: 0px auto;
+    color: #00413D;
+    padding-top: 5px;
+    padding-bottom: 50px;
+
+}
+.card-parent{
+    margin-top: 40px;
+}
+.card-parent .card{
+    width: 100% !important;
+    padding: 50px 35px;
+    border: 0px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.945);
+}
+.card-parent .card:hover i {
+    color: #E5745D;
+}
+.card-parent .card img{
+    width: 25%;
+}
+.card-parent .card-body{
+    padding: 0px;
+}
+.card-parent .card-title{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+.card-parent .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    padding-bottom: 30px;
+    width: 300px;
+}
+.card-parent .card-body i {
+    font-size: 27px;
+    transition: 0.5s;
+}
+
+/* --------Service area code end--------- */
+
+
+
+/* --------About me code start--------- */
+.aboutimg{
+    width: 65%;
+}
+.about_me{
+    margin-top:55px;
+}
+.about_me h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Vollkorn", serif;
+    color: #E5745D;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.about_me h4::after {
+    position: absolute;
+    top: 9px;
+    left: -46px;
+    height: 0px;
+    width: 40px;
+    border: 1px solid #E5745D;
+    content: "";
+}
+.about_me h4::before {
+    position: absolute;
+    top: 7px;
+    left: -11px;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #E5745D;
+    border-radius: 50%;
+    content: "";
+    background: #E5745D;
+}
+.about_me h1{
+    font-size: 50px;
+    color: #00413D;
+    font-weight: 600;
+    font-family: "Vollkorn", serif;
+
+}
+.about_me p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413dfb;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 70px;
+    margin-top: 5px;
+}
+
+/* --------About me code end--------- */
+
